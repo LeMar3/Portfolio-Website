@@ -207,10 +207,10 @@ a {
 
 .sp-container h2.frame-4 {
 	font-size: 200px;
-	-webkit-animation-delay: 9s;
-	-moz-animation-delay: 9s;
-	-ms-animation-delay: 9s;
-	animation-delay: 9s;
+	-webkit-animation-delay: 4s;
+	-moz-animation-delay: 4s;
+	-ms-animation-delay: 4s;
+	animation-delay: 4s;
 }
 
 .sp-container h2.frame-5 {
@@ -223,26 +223,26 @@ a {
 }
 
 .sp-container h2.frame-5 span {
-	-webkit-animation: blurFadeIn 3s ease-in 12s backwards;
-	-moz-animation: blurFadeIn 1s ease-in 12s backwards;
-	-ms-animation: blurFadeIn 3s ease-in 12s backwards;
-	animation: blurFadeIn 3s ease-in 12s backwards;
+	-webkit-animation: blurFadeIn 3s ease-in 9s backwards;
+	-moz-animation: blurFadeIn 1s ease-in 9s backwards;
+	-ms-animation: blurFadeIn 3s ease-in 9s backwards;
+	animation: blurFadeIn 3s ease-in 9s backwards;
 	color: transparent;
 	text-shadow: 0px 0px 1px #fff;
 }
 
 .sp-container h2.frame-5 span:nth-child(2) {
-	-webkit-animation-delay: 13s;
-	-moz-animation-delay: 13s;
-	-ms-animation-delay: 13s;
-	animation-delay: 13s;
+	-webkit-animation-delay: 10s;
+	-moz-animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	animation-delay: 10s;
 }
 
 .sp-container h2.frame-5 span:nth-child(3) {
-	-webkit-animation-delay: 14s;
-	-moz-animation-delay: 14s;
-	-ms-animation-delay: 14s;
-	animation-delay: 14s;
+	-webkit-animation-delay: 11s;
+	-moz-animation-delay: 11s;
+	-ms-animation-delay: 11s;
+	animation-delay: 11s;
 }
 
 .sp-circle-link {
@@ -457,5 +457,32 @@ a {
 	100% {
 		opacity: 1;
 		transform: scale(1) rotate(0deg);
+	}
+}
+
+@media only screen and (max-width: 786px) {
+	.navbar > a > div {
+		padding: 22px 20px;
+	}
+
+	.navbar {
+		font-size: 1.5em;
+	}
+
+	.sp-container h2 {
+		font-size: 60px;
+	}
+
+	.contact-tittle {
+		font-size: 3.5em;
+	}
+
+	.contact-subtittle {
+		font-size: 1.2em;
+	}
+
+	.info {
+		flex-direction: column;
+		padding-top: 10px;
 	}
 }
