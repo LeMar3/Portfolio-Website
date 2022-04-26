@@ -512,3 +512,15 @@ a {
 		padding-top: 8px;
 	}
 }
+
+#work-container-desc {
+	position: relative;
+	right: 0;
+	top: 400px;
+
+	text-align: center;
+	text-shadow: #262d34;
+	
+	font-size: 2em;
+	font-weight: 100;
+}
